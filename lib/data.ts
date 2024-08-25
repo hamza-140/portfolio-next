@@ -126,44 +126,49 @@ export const projectsData = [
   //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
   // },
   {
-    title: "Techprowl Computer Auction",
+    title: "Helmet Detection",
     description:
-      "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
-    tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-    icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
+      "Developed a Helmet Detection system leveraging Artificial Intelligence with YOLOv7, a PyTorch framework. The project involved creating a specialized environment using Anaconda, dataset annotation with labelimg, and dataset splitting for training, validation, and testing. The model was trained using transfer learning with pre-trained YOLOv7 weights, focusing on detecting two classes: 'With Helmet' and 'Without Helmet.'",
+    tags: ["Python", "YOLOv7", "PyTorch", "TensorBoard"],
+    icons: [
+      "logos:python",
+      "logos:pytorch",
+      "logos:tensorflow",
+      "devicon:anaconda-wordmark",
+    ],
     imageUrl: techprowlImg,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
-    urlLink: "https://techprowl.herokuapp.com",
+    // githubLink: "https://github.com/ben04rogers/computer-auction",
+    // urlLink: "https://techprowl.herokuapp.com",
   },
-  {
-    title: "Task Manager Console App",
-    description:
-      "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-    tags: ["C#"],
-    icons: ["devicon:csharp"],
-    imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ben04rogers/task-manager",
-  },
-  {
-    title: "Family Tree Shortest Path",
-    description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
-    icons: ["logos:python"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
-    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
-  },
-  {
-    title: "Arduino Binary Game",
-    description:
-      "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
-    tags: ["C"],
-    icons: ["devicon:c"],
-    imageUrl: binaryGameImg,
-    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
-    demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
-  },
+  // {
+  //   title: "Task Manager Console App",
+  //   description:
+  //     "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
+  //   tags: ["C#"],
+  //   icons: ["devicon:csharp"],
+  //   imageUrl: taskManagerImg,
+  //   githubLink: "https://github.com/ben04rogers/task-manager",
+  // },
+  // {
+  //   title: "Family Tree Shortest Path",
+  //   description:
+  //     "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
+  //   tags: ["Python"],
+  //   icons: ["logos:python"],
+  //   imageUrl: familyTreeImg,
+  //   githubLink: "https://github.com/ben04rogers/breadth-first-search",
+  //   demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
+  // },
+  // {
+  //   title: "Arduino Binary Game",
+  //   description:
+  //     "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
+  //   tags: ["C"],
+  //   icons: ["devicon:c"],
+  //   imageUrl: binaryGameImg,
+  //   githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
+  //   demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
+  // },
 ] as const;
 
 export const skillsData = [
@@ -188,24 +193,24 @@ export const skillsData = [
     icon: "logos:nodejs-icon",
   },
   {
-    name: "PHP",
-    icon: "logos:php",
+    name: "Ruby on Rails",
+    icon: "mdi:language-ruby-on-rails",
   },
   {
-    name: "Laravel",
-    icon: "logos:laravel",
+    name: "Sidekiq",
+    icon: "logos:sidekiq",
   },
   {
-    name: "Symfony",
-    icon: "logos:symfony",
+    name: "Angular Js",
+    icon: "logos:angular-icon",
   },
   {
     name: "Python",
     icon: "logos:python",
   },
   {
-    name: "Java",
-    icon: "logos:java",
+    name: "ElasticSearch",
+    icon: "logos:elasticsearch",
   },
   {
     name: "HTML",
@@ -216,35 +221,31 @@ export const skillsData = [
     icon: "vscode-icons:file-type-css",
   },
   {
-    name: "SCSS",
-    icon: "logos:sass",
+    name: "Ruby",
+    icon: "devicon:ruby",
   },
   {
     name: "Git",
     icon: "logos:git-icon",
   },
   {
-    name: "MySQL",
-    icon: "logos:mysql",
+    name: "MongoDB",
+    icon: "logos:mongodb-icon",
   },
   {
     name: "Linux",
     icon: "flat-color-icons:linux",
   },
   {
-    name: "AWS",
-    icon: "logos:aws",
+    name: "Firebase",
+    icon: "logos:firebase",
   },
   {
     name: "Docker",
     icon: "logos:docker-icon",
   },
   {
-    name: "Jenkins",
-    icon: "devicon:jenkins",
-  },
-  {
-    name: "Shopify",
-    icon: "logos:shopify",
+    name: "Flask",
+    icon: "skill-icons:flask-light",
   },
 ] as const;
