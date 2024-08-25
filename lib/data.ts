@@ -95,8 +95,8 @@ export const projectsData = [
       "devicon:nodejs",
     ],
     imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
+    // githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
     title: "Bugzilla",
