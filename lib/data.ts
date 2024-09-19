@@ -48,20 +48,20 @@ export const experiencesData = [
     date: "July 2022 - Present",
   },
   {
-    title: "Angular Internee",
+    title: "Jr. Software Developer",
     location: "CyberSilo PVT Ltd",
     description:
       "At CyberSilo, I played a key role in managing and enhancing the company's project service, ThreatHawk. Utilizing AngularJS for front-end development, I collaborated on designing and implementing user interfaces that were both intuitive and efficient. My most significant achievement was identifying and resolving a critical issue in the ticketing system, where unlimited network requests were being generated due to a malfunction. By optimizing the system, I successfully reduced these unnecessary requests by 95%, significantly improving system efficiency and reducing server load. My contributions highlighted my proficiency in AngularJS, problem-solving, and technical innovation, ensuring a more stable and reliable service.",
     icon: React.createElement(CgWorkAlt),
-    date: "February 2024 - March 2024",
+    date: "February 2023 - May 2023",
   },
   {
-    title: "Ruby on Rails Internee",
-    location: "TwinSpider Technologies",
+    title: "Software Developer",
+    location: "Trylo Tech",
     description:
-      "At TwinSpider Technologies, I gained valuable hands-on experience in full-stack development, working primarily with Ruby on Rails. I contributed to the development and optimization of several key projects, including a project management tool with MVC architecture and role-based authorization. My responsibilities included debugging and refining existing code.",
+      "Developed and maintained dynamic web applications using Angular, according to client’s requirments. Utilized Angular Material and Bootstrap to design and implement responsive, user-friendly interfaces, improving overall user experience. Collaborated with cross-functional teams including designers and back-end developers to deliver high-qualitysoftware solutions on time.",
     icon: React.createElement(CgWorkAlt),
-    date: "March 2024 - May 2024",
+    date: "June 2023 - August 2024",
   },
 ] as const;
 
@@ -85,10 +85,10 @@ export const projectsData = [
   {
     title: "Job Portal",
     description:
-      "Developed a full-stack web application using the MERN stack (MongoDB, Express, React, Node.js) that enables users to post job listings, apply for jobs, and manage applications efficiently. The platform features seamless API integration and robust database management, offering a user-friendly experience for both job seekers and employers.",
-    tags: ["React", "MongoDB", "Express", "Tailwind", "Node"],
+      "Developed a full-stack web application using the MEAN stack (MongoDB, Express, Angular, Node.js) that enables users to post job listings, apply for jobs, and manage applications efficiently. The platform features seamless API integration and robust database management, offering a user-friendly experience for both job seekers and employers.",
+    tags: ["Angular", "MongoDB", "Express", "Tailwind", "Node"],
     icons: [
-      "logos:react",
+      "logos:angular-icon",
       "devicon:mongodb-wordmark",
       "logos:bootstrap",
       "logos:express",
